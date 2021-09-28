@@ -1,0 +1,147 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 22rem;
+  width: 30rem;
+}
+
+h1 {
+  margin: 0rem;
+}
+
+p {
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: 0.9rem;
+}
+
+h4 {
+  margin: 0rem 0.5rem;
+  padding: 0.5rem 0rem;
+}
+
+button {
+  width: 10rem;
+  margin: 0;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+
+button:hover,
+button:focus,
+option:hover,
+option:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  margin: 4rem auto;
+  left: auto;
+  right: auto;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  border-bottom: 1px solid;
+  border-bottom-color: #c2c9d6;
+}
+
+.details {
+  margin: 1rem;
+}
+
+.label-score {
+  display: inline-block;
+}
+
+#playto {
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+#playto * {
+  border-radius: 15px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+#playto:hover {
+  cursor: pointer;
+}
+
+#playto:focus {
+  outline: none;
+}
+
+.buttons {
+  font-size: 0;
+}
+
+.btn-1 {
+  background-color: rgb(52, 252, 142);
+}
+
+.btn-1:hover {
+  background-color: rgba(37, 192, 107, 0.95);
+}
+
+.btn-2 {
+  background-color: rgb(52, 139, 252);
+}
+
+.btn-2:hover {
+  background-color: rgba(52, 139, 252, 0.8);
+}
+
+.btn-3 {
+  background-color: rgb(252, 52, 95);
+}
+
+.btn-3:hover {
+  background-color: rgba(252, 52, 95, 0.8);
+}
+
+/* Classes for JavaScript */
+
+.btn-text {
+  font-size: 1rem;
+  transition: ease-in-out 100ms;
+}
+
+.btn-text:hover {
+  font-size: 0.9rem;
+}
+
+.winColor {
+  color: rgb(52, 252, 142);
+}
+
+.looserColor {
+  color: rgb(252, 52, 95);
+}
+
+.btn1Disabled {
+  background-color: rgba(37, 192, 107, 0.6);
+}
+
+.btn2Disabled {
+  background-color: rgba(52, 139, 252, 0.6);
+}
+
