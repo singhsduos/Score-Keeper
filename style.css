@@ -1,3 +1,20 @@
+/*
+ ______________________________________________
+|                                              |
+|        DEFAULT BODY AND OTHER TAG CSS        |
+|______________________________________________|
+
+*/
+
+:root {
+  --green-shades:#34fc8f;
+  --blue-shades: #348bfc;
+  --red-shades:  #fd3460;
+  --green-alpha: rgba(37, 192, 107, 0.95);
+  --blue-alpha:  rgba(52, 139, 252, 0.8);
+  --red-alpha:   rgba(252, 52, 95, 0.8);
+  --border-color: #c2c9d6;
+}
 
 body {
   margin: 0;
@@ -41,6 +58,13 @@ option:focus {
   outline: none;
 }
 
+/*
+ ______________________________________________
+|                                              |
+|              UTILITIES CLASS                 |
+|______________________________________________|
+
+*/
 .container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 30rem;
@@ -60,7 +84,7 @@ option:focus {
 
 .imageContainer {
   border-bottom: 1px solid;
-  border-bottom-color: #c2c9d6;
+  border-bottom-color: var(--border-color);
 }
 
 .details {
@@ -95,30 +119,37 @@ option:focus {
 }
 
 .btn-1 {
-  background-color: rgb(52, 252, 142);
+  background-color: var(--green-shades);
 }
 
 .btn-1:hover {
-  background-color: rgba(37, 192, 107, 0.95);
+  background-color: var(--green-alpha);
 }
 
 .btn-2 {
-  background-color: rgb(52, 139, 252);
+  background-color: var(--blue-shades);
 }
 
 .btn-2:hover {
-  background-color: rgba(52, 139, 252, 0.8);
+  background-color: var(--blue-alpha);
 }
 
 .btn-3 {
-  background-color: rgb(252, 52, 95);
+  background-color: var(--red-shades);
 }
 
 .btn-3:hover {
-  background-color: rgba(252, 52, 95, 0.8);
+  background-color: var(--red-alpha);
 }
 
-/* Classes for JavaScript */
+/*
+ ______________________________________________
+|                                              |
+|           CLASSES FOR JAVASCRIPT             |
+|______________________________________________|
+
+*/
+
 
 .btn-text {
   font-size: 1rem;
@@ -130,18 +161,18 @@ option:focus {
 }
 
 .winColor {
-  color: rgb(52, 252, 142);
+  color: var(--green-shades);
 }
 
 .looserColor {
-  color: rgb(252, 52, 95);
+  color: var(--blue-shades);
 }
 
 .btn1Disabled {
-  background-color: rgba(37, 192, 107, 0.6);
+  background-color: var(--green-alpha);
 }
 
 .btn2Disabled {
-  background-color: rgba(52, 139, 252, 0.6);
+  background-color: var(--blue-alpha);
 }
 
