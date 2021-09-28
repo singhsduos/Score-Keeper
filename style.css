@@ -1,7 +1,7 @@
 /*
  ______________________________________________
 |                                              |
-|        DEFAULT BODY AND OTHER TAG CSS        |
+|     DEFAULT BODY, ROOT AND OTHER TAG CSS     |
 |______________________________________________|
 
 */
@@ -13,7 +13,8 @@
   --green-alpha: rgba(37, 192, 107, 0.95);
   --blue-alpha:  rgba(52, 139, 252, 0.8);
   --red-alpha:   rgba(252, 52, 95, 0.8);
-  --border-color: #c2c9d6;
+  --border-color:#c2c9d6;
+  --card-color:  rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -66,7 +67,7 @@ option:focus {
 
 */
 .container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 var(--card-color);
   width: 30rem;
   margin: 4rem auto;
   left: auto;
@@ -79,7 +80,7 @@ option:focus {
 }
 
 .container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 var(--card-color);
 }
 
 .imageContainer {
@@ -142,6 +143,48 @@ option:focus {
   background-color: var(--red-alpha);
 }
 
+/* footer */
+
+.footer {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  justify-content: space-evenly;
+  background: var(--red-shades);
+  color: white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  margin: 0em 1em;
+}
+
+.socialMedia {
+  margin-top: 1em;
+}
+.text {
+  margin-bottom: 0.5em;
+}
+
+.copyText {
+  margin-top: 0.5em;
+}
+
+.socialMedia a {
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+.socialMedia i {
+  color: white;
+}
+
 /*
  ______________________________________________
 |                                              |
@@ -165,7 +208,7 @@ option:focus {
 }
 
 .looserColor {
-  color: var(--blue-shades);
+  color: var(--red-shades);
 }
 
 .btn1Disabled {

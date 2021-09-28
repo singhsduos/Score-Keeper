@@ -2,22 +2,33 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font-Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Style Sheet Connected -->
     <link rel="stylesheet" href="style.css">
     <title>Score Keeper</title>
 </head>
 
 <body>
-
+    <!-- Body Container -->
     <div class="container">
+        <!-- Image Conatiner -->
         <div class="imageContainer">
             <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
                 alt="image">
             <h4>Ping Pong Score Keeper</h4>
         </div>
+        <!-- Score Section -->
         <div class="score-card">
+            <!-- Score Board Details -->
             <div class="details">
                 <h1><span id="p1DisplayScore">0</span> : <span id="p2DisplayScore">0</span></h1>
                 <p>Use the buttons below to keep score.</p>
@@ -36,6 +47,7 @@
                     </select>
                 </div>
             </div>
+            <!-- Buttons For Play-->
             <div class="buttons">
                 <button class="btn-1"><span id="btn1Text" class="btn-text">+1 Player One</span></button>
                 <button class="btn-2"><span id="btn2Text" class="btn-text">+1 Player Two</span></button>
@@ -44,6 +56,27 @@
         </div>
     </div>
 
+    <footer>
+        <div class="footer">
+            <div class="copyright">
+                <h2 class="text">Score Kepper</h2>
+                <p class="copyText">Copyright &copy; 2021</p>
+            </div>
+
+            <div class="socialMedia">
+                <a href="https://github.com/singhsduos/Score-Keeper" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/neeleshsng/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/singhs_duos" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Script Attached -->
     <script src="app.js"></script>
 </body>
 
