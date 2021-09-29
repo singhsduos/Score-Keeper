@@ -22,8 +22,6 @@ const p2 = {
 
 
 
-
-
 //  function for updating scores
 function score(player, opponent) {
     if (!isWinning) {
