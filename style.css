@@ -225,6 +225,8 @@ option:focus {
 |______________________________________________|
 
 */
+
+/* Screen Size 490px */
 @media screen and (max-width: 490px) {
   img {
     height: 15rem;
@@ -249,16 +251,20 @@ option:focus {
     align-items: center;
     padding-bottom: 0.5rem;
   }
-
 }
+
+/* Screen Size 401px */
 
 @media screen and (max-width: 401px) {
-    .footer {
+  .footer {
     width: 25rem;
     position: fixed;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
   }
-  
 }
+
+/* Screen Size 375px */
 
 @media screen and (max-width: 375px) {
   img {
