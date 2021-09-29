@@ -1,8 +1,6 @@
 const select = document.querySelector('#playto');
 const btn3 = document.querySelector('.btn-3');
 
-let p1Score = 0;
-let p2Score = 0;
 let winningScore = 3;
 let isWinning = false;
 
