@@ -1,5 +1,5 @@
 # Score-Keeper
-This is a Movies-Reccomendation app built using ReactJS that can tell the list of movies according to genre which easily filter out movies without any loading time within a second only and one important point is all database of movies like name cast, director, trailer, link, etc is created by me, there is not used any API in this app for database.
+This is a Ping-Pong Score Keeper Game where the counter is set according to the user and then which player reached first to mark off the counter then that player will be a winner.
 
 ### <a href="https://singhsduos.github.io/Score-Keeper/" target="_blank">**Visit Now 🚀**</a>
 
