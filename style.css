@@ -7,14 +7,14 @@
 */
 
 :root {
-  --green-shades:#34fc8f;
+  --green-shades: #34fc8f;
   --blue-shades: #348bfc;
-  --red-shades:  #fd3460;
+  --red-shades: #fd3460;
   --green-alpha: rgba(37, 192, 107, 0.95);
-  --blue-alpha:  rgba(52, 139, 252, 0.8);
-  --red-alpha:   rgba(252, 52, 95, 0.8);
-  --border-color:#c2c9d6;
-  --card-color:  rgba(0, 0, 0, 0.2);
+  --blue-alpha: rgba(52, 139, 252, 0.8);
+  --red-alpha: rgba(252, 52, 95, 0.8);
+  --border-color: #c2c9d6;
+  --card-color: rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -69,7 +69,7 @@ option:focus {
 .container {
   box-shadow: 0 4px 8px 0 var(--card-color);
   width: 30rem;
-  margin: 4rem auto;
+  margin: 2rem auto;
   left: auto;
   right: auto;
   top: 0;
@@ -193,7 +193,6 @@ option:focus {
 
 */
 
-
 .btn-text {
   font-size: 1rem;
   transition: ease-in-out 100ms;
@@ -219,3 +218,64 @@ option:focus {
   background-color: var(--blue-alpha);
 }
 
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+
+*/
+@media screen and (max-width: 490px) {
+  img {
+    height: 15rem;
+    width: 25rem;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  .container {
+    width: 25rem;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 401px) {
+    .footer {
+    width: 25rem;
+    position: fixed;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  img {
+    width: 20rem;
+  }
+
+  button {
+    width: 6.67rem;
+    padding: 5px;
+  }
+
+  .container {
+    width: 20rem;
+  }
+
+  .footer {
+    width: auto;
+    position: static;
+  }
+}
