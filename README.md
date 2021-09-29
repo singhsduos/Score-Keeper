@@ -15,11 +15,10 @@ This is a Ping-Pong Score Keeper Game where the counter is set according to the 
 [![jAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
-
-
-
+![Score-Kepper](https://user-images.githubusercontent.com/32032008/135217101-6e506f9b-5e21-4081-84c4-b57f2c573e3a.png)
 
 
 ## Demo-video
 
+https://user-images.githubusercontent.com/32032008/135217140-3efe1138-8395-48ac-8ee8-1584840ea40c.mp4
 
